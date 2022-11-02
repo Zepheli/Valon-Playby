@@ -1,3 +1,4 @@
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -6,9 +7,9 @@
 <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch&family=Tapestry&display=swap" rel="stylesheet">
 
 
-<body style="background-image:url('https://img.freepik.com/free-vector/comic-abstract-blue-background_225004-669.jpg'); background-repeat: no-repeat; background-size: cover !important; margin:0;display: flex; align-items: center;justify-content: space-between;;-ms-flex-pack: space-between;height:100vh;">
+<body style="background-image:url('https://media.istockphoto.com/vectors/vector-circuit-texture-background-vector-id628067700?k=20&m=628067700&s=612x612&w=0&h=nUP1MFbeY1aY-mu6ZNT9VdXU54fzVdfhDHUqyMxFb-c='); background-repeat: no-repeat; background-size: cover !important; margin:0;display: flex; align-items: center;justify-content: space-between;;-ms-flex-pack: space-between;height:100vh;">
 
-<img id="pic" align=left src=https://i.pinimg.com/564x/5d/e3/33/5de333e1f270f93a96fb95797183f31b.jpg width=auto height=100% style="margin-left:-200px;transition: 5s;">
+<img id="pic" align=left src=https://i.postimg.cc/SK0QqzR3/ae0c315c146fc1a8ebd66a11ac78abe8-preview-rev-1-1.png width=auto height=100% style="margin-left: -200px; transition: 3s;">
 
 <center style="background-color: #7299c0; border-style: solid; border-color: #000099; border-radius: 25px;">
 <font color="#000099" style="font-family: 'Grenze Gotisch', cursive;font-size:80px;"><b>Valon</b></font>
@@ -16,10 +17,10 @@
 
  
 <br>
-<font color="#000099" face='verdana' style="font-family: 'Tapestry', cursive;font-size:40px;">
+<font color="#000099" face='verdana' style="font-family: 'Tapestry', cursive;font-size:40px;transition: 5s;">
 A geeky kid with the heart of 
 </font>
-<font color="#ffd700" face='verdana' style="font-family: 'Tapestry', cursive;font-size:40px;">
+<font color="#ffd700" face='verdana' style="font-family: 'Tapestry', cursive;font-size:40px;transition: 5s;">
 gold.
 </font>
 <br>
@@ -28,8 +29,7 @@ gold.
 
 
 
-
-<div style=position:fixed;top:0;right:0;margin:0;padding:0;>
+<div style="position:fixed;top:0;right:0;margin:0;padding:0; z-index:9999;">
 <audio controls autoplay src="CHANGE THE WORLD - Inuyasha OP1 [Piano].mp3" type=audio/mpeg>
 </audio>
 </div>
@@ -38,14 +38,13 @@ gold.
 
 $(document).ready(function(){
 
+
 $('#pic').hide();
-$('font').hide();
-$('#pic').animate({"margin-left": '+=200'}, 1000);
-$('#pic').fadeTo(3000, 1.0);
-$('font').fadeTo(3000, 1.0);
+$('#pic').animate({"margin-left": '+=200'});
+$('#pic').fadeTo(1000, 1.0);
 
-
+$('center').hide();
+$('center').fadeTo(3000, 1.0);
 });
-
 
 </script>
